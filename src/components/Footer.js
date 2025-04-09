@@ -4,7 +4,7 @@ import './Footer.css';
 function Footer() {
     return (
     <footer>
-        <h3>Copyright C GovtInsight</h3>
+        <p>Copyright &copy; 2025 GovtInsight</p>
     <p>Design & Developed by SHHN</p>
     </footer>
     );

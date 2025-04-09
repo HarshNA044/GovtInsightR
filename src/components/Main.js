@@ -4,17 +4,17 @@ import './Main.css';
 const buttons = [
   {
     label: 'Central Govt',
-    image: 'https://i.ibb.co/VpNPqK1X/20250407-175241-0000.png',
+    image: 'https://i.ibb.co/jZPFgbHG/250409-171027-0000.jpg',
   },
   {
     label: 'State Govt',
-    image: 'https://i.ibb.co/z3HL7b2/20250407-183023-0000.png',
+    image: 'https://i.ibb.co/nqTs2zPF/2050409-171135-0000.png',
   },
 ];
 
 const Main = () => {
   return (
-    <div className="container">
+    <div className='circles'><div className="container">
       {buttons.map((btn, index) => (
         <button
           key={index}
@@ -24,7 +24,7 @@ const Main = () => {
           {btn.label}
         </button>
       ))}
-    </div>
+    </div></div>
   );
 };
 

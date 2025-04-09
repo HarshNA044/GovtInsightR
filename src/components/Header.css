@@ -8,8 +8,8 @@ header {
     z-index: 1;
     display: flex;
     align-items: center;
-    background: white;
-    border-bottom: 2px solid lightgrey;
+    background-color: #2d3944;
+    border-bottom: 5px solid #7dce98;
 }
 
 header img {
@@ -24,14 +24,16 @@ header p {
     margin-left: 10px;
     font-size: 18px;
     font-weight: bold;
+    color: white;
 }
 header ul li a {
     text-decoration: none;
     font-weight: bold;
-    color: black;
+    color: white;
 }
 .menu-icon {
     display: none;
+    color: white;
     font-size: 24px;
     cursor: pointer;
     margin-left: auto;

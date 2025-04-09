@@ -12,6 +12,7 @@ function App() {
     <div style={{marginTop: '80px'}}></div>
     <Slider/>
     <Main/>
+    <div style={{marginTop: '20px'}}></div>
     <Footer />
     
   
