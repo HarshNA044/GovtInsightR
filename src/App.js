@@ -15,25 +15,25 @@ import Stagov from './components/Stagov.js';
 const router=createBrowserRouter(
   [
     {path:"/", element: <div>
-      <Header/><div style={{marginTop:"90px"}}></div><Main/><Footer/>
+      <Header/><div style={{marginTop:"70px"}}></div><Main/><Footer/>
       </div>},
     {path:"/View", element: <div>
-      <Header/><div style={{marginTop:"90px"}}></div><View/><Footer/>
+      <Header/><div style={{marginTop:"90px"}}></div><View/><div style={{marginTop:"30px"}}></div><Footer/>
       </div>},
     {path:"/Complaint", element: <div>
-      <Header/><div style={{marginTop:"90px"}}></div><Complaint/><Footer/>
+      <Header/><div style={{marginTop:"70px"}}></div><Complaint/><Footer/>
       </div>},
     {path:"/Login", element: <div>
-      <Header/><div style={{marginTop:"90px"}}></div><Login/><Footer/>
+      <Header/><div style={{marginTop:"70px"}}></div><Login/><Footer/>
       </div>},
     {path:"/Signup", element: <div>
-      <Header/><div style={{marginTop:"90px"}}></div><Signup/><Footer/>
+      <Header/><div style={{marginTop:"70px"}}></div><Signup/><Footer/>
       </div>},
     {path:"/Central-Govt", element: <div>
-      <Header/><div style={{marginTop:"90px"}}></div><Cengov/><Footer/>
+      <Header/><div style={{marginTop:"70px"}}></div><Cengov/><Footer/>
       </div>},
     {path:"/State-Govt", element: <div>
-      <Header/><div style={{marginTop:"90px"}}></div><Stagov/><Footer/>
+      <Header/><div style={{marginTop:"70px"}}></div><Stagov/><Footer/>
       </div>},
   ]
 );
