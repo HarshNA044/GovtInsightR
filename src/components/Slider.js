@@ -3,15 +3,15 @@ import "./Slider.css";
 
 const images = [
   {
-    src: "https://www.w3schools.com/howto/img_nature_wide.jpg",
+    src: "https://i.ibb.co/99ytjWfr/IMG-20250416-WA0002.jpg",
     caption: "Caption Text",
   },
   {
-    src: "https://www.w3schools.com/howto/img_snow_wide.jpg",
+    src: "https://i.ibb.co/WNfXdF6N/IMG-20250416-WA0001.jpg",
     caption: "Caption Two",
   },
   {
-    src: "https://www.w3schools.com/howto/img_mountains_wide.jpg",
+    src: "https://i.ibb.co/WpM3q06n/Untitled-design-20250417-151348-0000.png",
     caption: "Caption Three",
   },
 ];

@@ -15,7 +15,7 @@ import Stagov from './components/Stagov.js';
 const router=createBrowserRouter(
   [
     {path:"/", element: <div>
-      <Header/><div style={{marginTop:"70px"}}></div><Main/><Footer/>
+      <Header/><div style={{marginTop:"70px"}}></div><Slider/><Main/><Footer/>
       </div>},
     {path:"/View", element: <div>
       <Header/><div style={{marginTop:"90px"}}></div><View/><div style={{marginTop:"30px"}}></div><Footer/>
