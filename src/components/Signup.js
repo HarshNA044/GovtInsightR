@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './Signup.css';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
-const Signup = ({ closeModal, switchToLogin }) => {
+const Signup = ({ switchToLogin }) => {
   const [captchaAnswer, setCaptchaAnswer] = useState('');
   const [idOption, setIdOption] = useState('');
   const [aadhaar, setAadhaar] = useState('');
@@ -14,14 +14,12 @@ const Signup = ({ closeModal, switchToLogin }) => {
       alert('Captcha incorrect!');
     } else {
       alert('Signup submitted!');
-      closeModal();
     }
   };
 
   return (
-    <div className="modal" onClick={closeModal}>
-      <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-        <span className="close" onClick={closeModal}>&times;</span>
+    <div className="signup-container">
+      <div className="signup-box">
         <h2>Sign Up</h2>
         <form onSubmit={handleSubmit}>
           <input type="text" placeholder="Full Name" required />
@@ -35,14 +33,16 @@ const Signup = ({ closeModal, switchToLogin }) => {
                 type="radio"
                 name="idOption"
                 value="aadhaar"
+                checked={idOption === 'aadhaar'}
                 onChange={() => setIdOption('aadhaar')}
               /> Aadhaar
             </label>
-            <label>
+            <label style={{ marginLeft: '10px' }}>
               <input
                 type="radio"
                 name="idOption"
                 value="pan"
+                checked={idOption === 'pan'}
                 onChange={() => setIdOption('pan')}
               /> PAN Card
             </label>

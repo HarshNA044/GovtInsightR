@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './Login.css';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
-const Login = ({ closeModal, switchToSignup }) => {
+const Login = ({ switchToSignup }) => {
   const [captchaAnswer, setCaptchaAnswer] = useState('');
 
   const handleSubmit = (e) => {
@@ -11,14 +11,13 @@ const Login = ({ closeModal, switchToSignup }) => {
       alert('Captcha incorrect!');
     } else {
       alert('Login submitted!');
-      closeModal();
+      // Add login logic here
     }
   };
 
   return (
-    <div className="modal" onClick={closeModal}>
-      <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-        <span className="close" onClick={closeModal}>&times;</span>
+    <div className="login-container">
+      <div className="login-box">
         <h2>Login</h2>
         <form onSubmit={handleSubmit}>
           <input type="email" placeholder="Email" required />
