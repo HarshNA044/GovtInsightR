@@ -5,7 +5,8 @@ function Footer() {
     return (
     <footer>
         <p>Copyright &copy; GovtInsight 2025</p>
-    <p>Design & Developed by Saksham Harsh Hemant Nikhil</p>
+    <p>Design & Developed by</p>
+    <p>Saksham Harsh Hemant Nikhil</p>
     </footer>
     );
 }
