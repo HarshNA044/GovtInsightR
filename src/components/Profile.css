@@ -1,9 +1,9 @@
-.container {
+.container1 {
     border: 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
-    padding: 30px;
+    padding: 20px;
     margin-top: 60px;
     position: relative;
   }
@@ -45,7 +45,7 @@
   }
   
   @media (max-width: 768px) {
-    .container {
+    .container1 {
       grid-template-columns: 1fr;
     }
   
