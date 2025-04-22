@@ -24,6 +24,7 @@ function Header() {
                 <li><Link to="/View">View</Link></li>
                 <li><Link to="/Complaint">Complaint</Link></li>
                 <li><Link to="/Login">Login</Link></li>
+                <li><Link to="/profile">Profile</Link></li>
             </ul>
         </header>
     );
