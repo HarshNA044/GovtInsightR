@@ -16,7 +16,7 @@ function Header() {
                 alt="logo" 
             />
             <span style={{ color: "lightgrey" }}>|</span>
-            <p>GovtInsight</p>
+            <Link style={{textDecoration:"none",color:"white",fontWeight:"bold",paddingLeft:"10px"}} to="/">GovtInsight</Link>
             <span className="menu-icon" onClick={toggleMenu}>&#9776;</span>
             <ul className={menuOpen ? "nav-menu active":"nav-menu"}>
                 
