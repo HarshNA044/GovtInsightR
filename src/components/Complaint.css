@@ -45,8 +45,10 @@
   /* Complaint button */
   .file-complaint-btn {
     display: block;
-    margin: 0 auto 40px;
-    padding: 12px 60px;
+    margin: 0 auto;
+    width: fit-content;
+    padding: 12px 24px;
+    margin-bottom: 25px;
     font-size: 1rem;
     background-color: #62a9bb;
     color: #fff;
